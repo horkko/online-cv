@@ -1,0 +1,18 @@
+{% assign certifications = data.sidebar.certifications %}
+{% if certifications %}
+<div class="certifications-container container-block">
+
+  <h2 class="container-block-title">
+    {{ certifications.title }}
+  </h2>
+
+  <ul class="list-unstyled certifications-list">
+    {% for certification in certifications.info %}
+    <li class="certification">
+      <i class="fas fa-certificate"></i>
+      <a href="{{ certification.badge }}" target="_blank">{{ certification.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</div><!--//certifications-->
+{% endif %}
