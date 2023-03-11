@@ -209,14 +209,11 @@ skills:
     title: Compétences &amp; Aptitudes
 
     toolset:
-      - name: Perl
+      - name: Scripting Shell/Python/Perl
         level: 90%
 
-      - name: Python
-        level: 85%
-
       - name: Docker/Podman
-        level: 75%
+        level: 80%
 
       - name: Kubernetes
         level: 60%
