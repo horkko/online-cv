@@ -49,6 +49,18 @@ jobs:
           output: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
           options: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
+      - name: Get all yaml files
+        id: filelist
+        uses: the-coding-turtle/ga-file-list@v0.1
+        with:
+          directory: "./assets"
+          file_extension: "yaml"
+
+      - name: Show files
+        shell: bash
+        run:  |
+          echo ${{ steps.filelist.outputs.files }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
