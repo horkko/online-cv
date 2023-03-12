@@ -34,12 +34,21 @@ jobs:
         with:
           source: ./
           destination: ./_site
+
+      # - name: Create PDF resume
+      #   uses: frnode/html-to-pdf-action@master
+      #   with:
+      #     htmlFile: ./_site/index.html
+      #     outputFile: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
+      #     pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
       - name: Create PDF resume
-        uses: frnode/html-to-pdf-action@master
+        uses: ntdesmond/html2pdf-action@v1
         with:
-          htmlFile: ./_site/index.html
-          outputFile: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
-          pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+          path: ./_site/index.html
+          output: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
+          options: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
