@@ -13,6 +13,18 @@
     </li>
     {% endif %}
 
+    {% if sidebar.born %}
+    <li class="date"><i class="fas fa-calendar-check"></i>
+      <a href="">{{ sidebar.born }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.city %}
+    <li class="phone"><i class="fas fa-home"></i>
+      <a href="">{{ sidebar.city }}</a>
+    </li>
+    {% endif %}
+
     {% if sidebar.citizenship %}
     <li class="phone"><i class="fas fa-passport"></i>
       <a href="">{{ sidebar.citizenship }}</a>
@@ -93,7 +105,7 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <a href="{{ site.baseurl }}{{ sidebar.pdf }}" target="_blank">Resume PDF</a>
+      <a href="{{ site.baseurl }}{{ sidebar.pdf.path }}" target="_blank">{{ sidebar.pdf.display }}</a>
     </li>
     {% endif %}
 

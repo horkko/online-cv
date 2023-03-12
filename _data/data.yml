@@ -2,6 +2,7 @@ sidebar:
     position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    fontawsome: fas # fa-solid
 
     # Profile information
     name: Emmanuel Quevillon
@@ -11,20 +12,24 @@ sidebar:
     # Sidebar links
     email: horkko@gmail.com
     phone: +33 6 03 44 32 86
-    timezone: Paris/France Timezone
-    citizenship: Française
+    born: 18 Juin 1976
+    city: Rouen
+#    timezone: Paris/France Timezone
+#    citizenship: Française
 #    website: philippart-s.github.io/blog/ #do not add http://
     linkedin: emmanuelquevillon
 #    xing:
     github: horkko
     telegram: # add your nickname without '@' sign
-    gitlab: 'horkko'
+    gitlab: horkko
     # bitbucket:
     # twitter: '@wildagsx'
     # stack-overflow: 2471248/wilda # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: /assets/pdf/cv-fr-emmanuel-quevillon.pdf
+    pdf:
+      path: /assets/pdf/cv-fr-emmanuel-quevillon.pdf
+      display: Version PDF
 
     certifications:
       title: Certifications
@@ -104,7 +109,7 @@ experiences:
 
       - role: DevOps / SRE
         time: 04/2022 - Aujourd'hui
-        company: RedLab, Rouen
+        company: RedLab - Rouen
         details: |
           Mise en place d'une structure d'integration et deploiement continue (CI/CD) pour projets internes.
             - Gestion, déploiement et optimisation d'application conteneurisée dans K8S

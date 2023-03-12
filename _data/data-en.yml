@@ -2,56 +2,70 @@ sidebar:
     position: left # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
+    fontawsome: fas # fa-solid
 
     # Profile information
-    name: Stéphane Philippart
-    tagline: Developer Relation
-    avatar: stephane_philippart.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Emmanuel Quevillon
+    tagline: DevOps
+    avatar: emmanuel-quevillon.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: s.philippart@gmail.com
-    phone: +33 6 70 23 86 01
-    timezone: Paris/France Timezone
-    citizenship: French
-    website: philippart-s.github.io/blog/ #do not add http://
-    linkedin: philippartstephane
-    xing: 
-    github: philippart-s
+    email: horkoo@gmail.com
+    phone: +33 6 03 44 32 86
+    born: 18 Juin 1976
+    city: Rouen
+#    timezone: Paris/France Timezone
+#    citizenship: French
+#    website: philippart-s.github.io/blog/ #do not add http://
+    linkedin: emmanuelquevillon
+    xing:
+    github: horkko
     telegram: # add your nickname without '@' sign
-    gitlab: '@philippart-s'
-    bitbucket:
-    twitter: '@wildagsx'
-    stack-overflow: 2471248/wilda # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: /assets/pdf/cv-en-stephane-philippart.pdf
+    gitlab: 'horkko'
+    # bitbucket:
+    # twitter: '@wildagsx'
+    # stack-overflow: 2471248/wilda # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf:
+      path: /assets/pdf/cv-en-emmanuel-quevillon.pdf
+      display: PDF version
+
+    certifications:
+      title: Certifications
+      info:
+        - name: AWS Certified Cloud Practitioner
+          badge: https://www.credly.com/badges/e4e09dfe-b55c-4367-8d98-4aeb26c515f3
+
+        - name: HashiCorp Certified Terraform Associate (002)
+          badge: https://www.credly.com/badges/b7e73790-6d72-42e9-9f9a-64df9b77593e
 
     languages:
       title: Languages
       info:
         - idiom: French
-          level: Native
+          level: Mother tong
 
         - idiom: English
-          level: Professional
+          level: Fluent
 
     interests:
       title: Interests
       info:
-        - item: Co-creator of TADx meetup
-          link: https://www.tadx.fr
-
-        - item: Running
+        - item: Crossfit
           link:
 
-        - item: Cooking
+        - item: Motorcycle
+          link:
+
+        - item: Diving (CMAS 2)
           link:
 
 career-profile:
-    title: Career Profile
+    title: About
     summary: |
       Après de longues années passées dans le monde du développement, de l'expertise et de l'architecture logicielle j'ai choisi de changer de voie.
-      En effet, les relations avec les développeuses et développeurs étant un élément très important pour moi j'ai décidé de devenir Developer Relation. 
+      En effet, les relations avec les développeuses et développeurs étant un élément très important pour moi j'ai décidé de devenir Developer Relation.
 
       Le partage est un élément essentiel pour moi: c’est pourquoi j’ai co-créé une association dont le but est d’organiser des meetups autour de l’agilité et du DevOps : TADx.
       Toujours dans le but de partager je suis aussi speaker lors de conférences.
@@ -63,7 +77,7 @@ education:
         university: Polytech Tours
         time: 1999
         details: |
-          Ecole d’ingénieur en informatique (développement). 
+          Ecole d’ingénieur en informatique (développement).
       - degree: DUT Informatique
         university: Université d’Orléans - Tours
         time: 1996
@@ -76,50 +90,96 @@ education:
           Filière générale option biologie.
 
 experiences:
-    title: Experiences
+    title: Experiences professionnelles
     info:
-      - role: Developer Relation
-        time: 2022 - Aujourd'hui
-        company: OVHcloud, Tours
+      - role: DevOps / SRE
+        time: 04/2022 - Aujourd'hui
+        company: SAFRAN - Magny les hameaux
         details: |
-          Client zéro auprès des équipes produits pour tester les produits.
-          Technical writer pour les guides officiels et des blog posts d'entreprise.
-          Participation aux conférences en tant qu'orateur et tenue de stand.
-          Animations des communautés de développement en interne et en externe.
-          Développement de POC et démos.
+          Maintenance et automatisation de procédures d'installation et de configuration.
+            - SRE Cloud privé OpenStack, gestion d'usine logicielle pour plateforme BigData (GitLab, Artifactory, ...)
+            - Migration d'aapplications dans le cloud (AWS)
+            - Migration d'infrastructures via IAC (Terraform)
 
-      - role: Architecte Logiciel
-        time: 2008 - 2022
-        company: Harmonie-Mutuelle, Tours
+      - role: DevOps / SRE
+        time: 04/2022 - Aujourd'hui
+        company: RedLab - Rouen
         details: |
-          Mise à disposition de socles pour les équipes de développement : Spring*, JEE, Angular, Business Works (ESB). 
-          Développement de Frameworks internes (SpringBoot & Angular).
-          Conception et réalisation de la plateforme d'intégration continue basée sur Jenkins 2 (“pipelines as code”), Sonarqube et GitHub. 
-          Mise en place de la chaîne “CI / CD” sur Openshift 4.
+          Mise en place d'une structure d'integration et deploiement continue (CI/CD) pour projets internes.
+            - Gestion, déploiement et optimisation d'application conteneurisée dans K8S
+            - Installation automatisée d'un cluster offline K8S (Ansible)
+            - Intégration & déploiement continue (Github actions, Docker) via une librairie partagée
 
-      - role: Ingénieur logiciel Java / JEE 
-        time: 2006 - 2008
-        company: Apside TOP, Tours
+      - role: DevOps / SRE
+        time:  02/2020 - 03/2021
+        company: MovingLab - Rouen
         details: |
-          Mise en place d'applications Web en tant qu’expert JEE en prestation chez Coface Services et accompagnement du personnels interne dans sa montée en compétences . 
-          Rôle de tech lead au sein des équipes.
+          Maintenance et modernisation d'infrastructures Cloud et de déploiement automatique.
+            - SRE Cloud (AWS)
+            - Infrastructure as a Code (Terraform)
+            - Administration & automatisation (Packer / Ansible)
+            - Déploiement automatiques (Gitlab-CI, CodeDeploy, Docker)
 
-      - role: Chef de projet technique
-        time: 2004 - 2006
-        company: Delta Informatique, Tours
+      - role: DevOps / SRE
+        time: 09/2017 - 01/2020
+        company: OmicX - Rouen
         details: |
-          Mise en place de sites web (secteur banque et assurances) en JEE (déployés sur Weblogic) comme développeur expert puis chef de projets techniques (spécifications techniques, développement et mise en place chez les clients) sur les mêmes technologies.
+          Mise en place d'une architecture de production web complexe multisites virtualisée (VMware, ProxMox)
+            - Sécurisation réseau (Pfsense, iptables)
+            - Reverse proxy / Load balancing (Apache, HAproxy)
+            - Cluster de bases de données multi master (MariaDB/Galera)
+            - VPN multisites
+            - Répartition multisites (Europe, Canada, Singapour) via GeoIP (Cloudflare)
 
-      - role: Ingénieur Java / JEE
-        time: 2002 - 2004
-        company: Prima Solutions, Paris
+          Mise en place d'un environnement de développement, test et déploiement automatique
+            - Automatisation via CI (GitLab) et CD (Ansible) en production
+            - Environnement de test (Docker, Docker registry)
+
+          Mise en place d'un environnement de R&D pour calculs intensifs
+            - Serveurs de calcul
+            - Serveurs de bases de données (MariaDB) et NoSQL (MongoDB)
+            - Services Docker
+
+      - role: Développeur bioinformatique / Administrateur système
+        time: 04/2007 - 08/2017
+        company: Institut Pasteur - Paris
         details: |
-          Développement de front end et back end dans le secteur assurance et pour le site assurland.com. Accompagnement clientèle pour le déploiement de solutions JEE / Weblogic.
+          Gestion et mise à jour des données biologiques publiques pour le campus
+            - Maintenance et configuration via <a href="https://github.com/genouest/biomaj" target="_blank">BioMAJ</a>
+            - Scripts bash de soumission de jobs sur cluster de calcul (SLURM)
+            - Contributeur majeur et testeur du projet BioMAJ3
+            - Développement d'un outil contributaire, <a href="https://github.com/horkko/biomaj-manager" target="_blank">biomaj-manager</a>
 
+          Développement d'applications bioinformatiques, suivi des projets, installation, maintenance et évolutions des applications en production.
+           - BiblioList: Gestion de références bibliographiques pour génomes annotés (Perl/PostgreSQL/Apache)
+           - <a href="https://github.com/kjolley/BIGSdb" target="_blank">BIGSdb</a>: Gestion du typage par séquences multilocus. Développement d'un plugin de visualisation de phylogénie (Perl/PostgreSQL/Apache)
+           - dbNucleus: Gestion de données cliniques, génotypiques et phénotypiques d'autisme (Perl/PostgeSQL/Apache)
+           - Demultiplex: Gestion et suivi des séquençages hiseq (Illumina) et automatisation de tâches de démultiplexage (Cluster SLURM) (Python Django, PostgreSQL, Apache)
+           - PairedEnd: Outil de recherche de séquences PairedEnd chevauchantes (C++)
+           - CIF: Outil d'aide à la décision pour les constructions en biologie moléculaires (Perl, <a href="https://bioperl.org/" target="_blank">BioPerl</a>)
+
+      - role: Développeur bioinformatique
+        time: 06/2055 - 04/2007
+        company: INRA/Bayer CropScience - Every/Lyon
+        details: |
+          Mise en place d'un pipeline d'annotation automatique pour l'analyse fonctionnelle de génomes fongiques.
+            - Développement d'une librairie interne Perl de gestion d'ordonnancement d'étapes de workflow. Soumission de jobs sur cluster de calcul (SGE)
+            - Développement d'une application web pour la visualisation des résultats d'analyse (Perl CGI/PostgreSQL/Apache).
+
+      - role: Développeur bioinformatique
+        time: 10/2022 - 05/2005
+        company: European BioInformatic Institute - Cambridge UK
+        details: |
+          Développement d'un logiciel de recherche de signatures protéiques sur des séquences du vivant (<a href="https://www.ebi.ac.uk/interpro/" target="_blank">InterProScan</a>).
+            - Réécriture d'InterPRoScan (modules Perl), mode CLI et Web
+            - Développement d'une librarire d'indexation de fichiers
+            - Intégration d'outils externes pour la recherche de signature protéiques
+            - Support utilisateur
+            - Packaging et distribution de version (outil et données)
 
 projects:
     title: Projects
-    intro: 
+    intro:
     assignments:
       - title: TADx
         link: https://www.tadx.fr
