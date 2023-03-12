@@ -59,7 +59,7 @@ jobs:
         shell: bash
         run:  |
           sudo cp ${{ github.workspace }}/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf _site/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
-          && ls -l ${{ github.workspace }}/_site/assets/pdf
+          ls -l ${{ github.workspace }}/_site/assets/pdf
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
