@@ -38,7 +38,7 @@ jobs:
         uses: frnode/html-to-pdf-action@master
         with:
           htmlFile: ./_site/index.html
-          outputFile: ./assests/pdf/cv-fr-emmanuel-quevillon-test.pdf
+          outputFile: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
