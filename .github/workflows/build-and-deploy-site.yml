@@ -58,7 +58,7 @@ jobs:
       - name: Show files
         shell: bash
         run:  |
-          ls -l ${{ github.workspace }}/assests >> $GITHUB_OUTPUT
+          ls -l ${{ github.workspace }}/assets >> $GITHUB_OUTPUT
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
