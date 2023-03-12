@@ -46,7 +46,7 @@ jobs:
         uses: ntdesmond/html2pdf-action@v1
         with:
           path: ./_site/index.html
-          output: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
+          output: ./_site/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
           options: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
       - name: Upload artifact
