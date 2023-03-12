@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Deploy Jekyll with GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -34,31 +34,24 @@ jobs:
         with:
           source: ./
           destination: ./_site
-
+      # Does not keep CSS
       # - name: Create PDF resume
-      #   uses: frnode/html-to-pdf-action@master
+      #   uses: ntdesmond/html2pdf-action@v1
       #   with:
-      #     htmlFile: ./_site/index.html
-      #     outputFile: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
-      #     pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      #     path: ./_site/index.html
+      #     output: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
+      #     options: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
 
       - name: Create PDF resume
-        uses: ntdesmond/html2pdf-action@v1
+        uses: markwilson/html2pdf@v1.0
         with:
-          path: ./_site/index.html
-          output: ./assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
-          options: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
-
-      # - name: Get all yaml files
-      #   id: filelist
-      #   uses: the-coding-turtle/ga-file-list@v0.1
-      #   with:
-      #     directory: "./assets"
+          htmlPath: _site/index.html
+          pdfName: cv-fr-emmanuel-quevillon-test
 
       - name: Copy PDF and show files
         shell: bash
         run:  |
-          sudo cp ${{ github.workspace }}/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf _site/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
+          sudo cp ${{ github.workspace }}/dist/cv-fr-emmanuel-quevillon-test.pdf _site/assets/pdf/cv-fr-emmanuel-quevillon-test.pdf
           ls -l ${{ github.workspace }}/_site/assets/pdf
 
       - name: Upload artifact
