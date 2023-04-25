@@ -159,7 +159,7 @@ experiences:
            - CIF: Outil d'aide à la décision pour les constructions en biologie moléculaires (Perl, <a href="https://bioperl.org/" target="_blank">BioPerl</a>)
 
       - role: Développeur bioinformatique
-        time: 06/2055 - 04/2007
+        time: 06/2005 - 04/2007
         company: INRA/Bayer CropScience - Every/Lyon
         details: |
           Mise en place d'un pipeline d'annotation automatique pour l'analyse fonctionnelle de génomes fongiques.
@@ -167,7 +167,7 @@ experiences:
             - Développement d'une application web pour la visualisation des résultats d'analyse (Perl CGI/PostgreSQL/Apache).
 
       - role: Développeur bioinformatique
-        time: 10/2022 - 05/2005
+        time: 10/2002 - 05/2005
         company: European BioInformatic Institute - Cambridge UK
         details: |
           Développement d'un logiciel de recherche de signatures protéiques sur des séquences du vivant (<a href="https://www.ebi.ac.uk/interpro/" target="_blank">InterProScan</a>).
@@ -177,32 +177,32 @@ experiences:
             - Support utilisateur
             - Packaging et distribution de version (outil et données)
 
-projects:
-    title: Projects
-    intro:
-    assignments:
-      - title: TADx
-        link: https://www.tadx.fr
-        tagline: "Co-créateur d'un meetup à Tours. Ce meetup a pour objectif d'organiser un évènement par mois autour des sujets divers et variés que l'on peut trouver dans l’écosystème IT."
+# projects:
+#     title: Projects
+#     intro:
+#     assignments:
+#       - title: TADx
+#         link: https://www.tadx.fr
+#         tagline: "Co-créateur d'un meetup à Tours. Ce meetup a pour objectif d'organiser un évènement par mois autour des sujets divers et variés que l'on peut trouver dans l’écosystème IT."
+#
+#       - title: Blog personnel
+#         link: https://philippart-s.github.io/blog/
+#         tagline: "Blog personnel pour partager autour de sujets techniques."
+#
+#       - title: Conférences données
+#         link: https://noti.st/philippart-s
+#         tagline: "Slides et vidéos des conférences données."
 
-      - title: Blog personnel
-        link: https://philippart-s.github.io/blog/
-        tagline: "Blog personnel pour partager autour de sujets techniques."
-
-      - title: Conférences données
-        link: https://noti.st/philippart-s
-        tagline: "Slides et vidéos des conférences données."
-
-oss:
-    title: OSS Contributions
-    contributions:
-      - title: Jenkins conventional commits plugin
-        link: https://github.com/jenkinsci/conventional-commits-plugin/
-        tagline: "Plugin Jenkins permettant le calcule automatique des versions en fonction des messages de commit."
-
-      - title: Developers Conferences Agenda/List
-        link: https://github.com/scraly/developers-conferences-agenda
-        tagline: "Repository de centralisation des date de conférences et CFP."
+# oss:
+#     title: OSS Contributions
+#     contributions:
+#       - title: Jenkins conventional commits plugin
+#         link: https://github.com/jenkinsci/conventional-commits-plugin/
+#         tagline: "Plugin Jenkins permettant le calcule automatique des versions en fonction des messages de commit."
+#
+#       - title: Developers Conferences Agenda/List
+#         link: https://github.com/scraly/developers-conferences-agenda
+#         tagline: "Repository de centralisation des date de conférences et CFP."
 
 skills:
     title: Skills &amp; Proficiency

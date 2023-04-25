@@ -77,7 +77,7 @@ education:
         details: |
           Etre capable d'être l'interface entre le monde scientifique (biologique)
           et l'informatique.
-          Manipuler et déchiffrer de grande quantités de données du vivant via
+          Manipuler et déchiffrer de grandes quantités de données du vivant via
           de l'utilisation et du développement d'outils informatiques et statistiques.
       - degree: Master Biologie cellulaire et moléculaire
         university: Université Joseph Fourrier - Grenoble
@@ -104,27 +104,27 @@ experiences:
         details: |
           Maintenance et automatisation de procédures d'installation et de configuration.
             - SRE Cloud privé OpenStack, gestion d'usine logicielle pour plateforme BigData (GitLab, Artifactory, ...)
-            - Migration d'aapplications dans le cloud (AWS)
+            - Migration d'applications dans le cloud (AWS)
             - Migration d'infrastructures via IAC (Terraform)
 
       - role: DevOps / SRE
         time: 04/2022 - Aujourd'hui
         company: RedLab - Rouen
         details: |
-          Mise en place d'une structure d'integration et deploiement continue (CI/CD) pour projets internes.
-            - Gestion, déploiement et optimisation d'application conteneurisée dans K8S
+          Mise en place d'une structure d'intégration et déploiement continu (CI/CD) pour projets internes.
+            - Gestion, déploiement et optimisation d'applications conteneurisées dans K8S
             - Installation automatisée d'un cluster offline K8S (Ansible)
-            - Intégration & déploiement continue (Github actions, Docker) via une librairie partagée
+            - Intégration & déploiement continu (Github actions, Docker) via une librairie partagée (GitHub actions)
 
       - role: DevOps / SRE
         time:  02/2020 - 03/2021
         company: MovingLab - Rouen
         details: |
-          Maintenance et modernisation d'infrastructures Cloud et de déploiement automatique.
+          Maintenance et modernisation d'infrastructures Cloud et de déploiements automatiques.
             - SRE Cloud (AWS)
             - Infrastructure as a Code (Terraform)
             - Administration & automatisation (Packer / Ansible)
-            - Déploiement automatiques (Gitlab-CI, CodeDeploy, Docker)
+            - Déploiements automatiques (Gitlab-CI, CodeDeploy, Docker, Bash)
 
       - role: DevOps / SRE
         time: 09/2017 - 01/2020
@@ -133,9 +133,9 @@ experiences:
           Mise en place d'une architecture de production web complexe multisites virtualisée (VMware, ProxMox)
             - Sécurisation réseau (Pfsense, iptables)
             - Reverse proxy / Load balancing (Apache, HAproxy)
-            - Cluster de bases de données multi master (MariaDB/Galera)
-            - VPN multisites
-            - Répartition multisites (Europe, Canada, Singapour) via GeoIP (Cloudflare)
+            - Cluster de bases de données multi-master (MariaDB/Galera)
+            - VPN multi-sites
+            - Répartition multi-sites (Europe, Canada, Singapour) via GeoIP (Cloudflare)
 
           Mise en place d'un environnement de développement, test et déploiement automatique
             - Automatisation via CI (GitLab) et CD (Ansible) en production
@@ -156,7 +156,7 @@ experiences:
             - Contributeur majeur et testeur du projet BioMAJ3
             - Développement d'un outil contributaire, <a href="https://github.com/horkko/biomaj-manager" target="_blank">biomaj-manager</a>
 
-          Développement d'applications bioinformatiques, suivi des projets, installation, maintenance et évolutions des applications en production.
+          Développement d'applications bioinformatiques, suivi des projets, installation, maintenance et évolution des applications en production.
            - BiblioList: Gestion de références bibliographiques pour génomes annotés (Perl/PostgreSQL/Apache)
            - <a href="https://github.com/kjolley/BIGSdb" target="_blank">BIGSdb</a>: Gestion du typage par séquences multilocus. Développement d'un plugin de visualisation de phylogénie (Perl/PostgreSQL/Apache)
            - dbNucleus: Gestion de données cliniques, génotypiques et phénotypiques d'autisme (Perl/PostgeSQL/Apache)
@@ -165,15 +165,15 @@ experiences:
            - CIF: Outil d'aide à la décision pour les constructions en biologie moléculaires (Perl, <a href="https://bioperl.org/" target="_blank">BioPerl</a>)
 
       - role: Développeur bioinformatique
-        time: 06/2055 - 04/2007
+        time: 06/2005 - 04/2007
         company: INRA/Bayer CropScience - Every/Lyon
         details: |
-          Mise en place d'un pipeline d'annotation automatique pour l'analyse fonctionnelle de génomes fongiques.
+          Mise en place d'un pipeline d'annotations automatique pour l'analyse fonctionnelle de génomes fongiques.
             - Développement d'une librairie interne Perl de gestion d'ordonnancement d'étapes de workflow. Soumission de jobs sur cluster de calcul (SGE)
             - Développement d'une application web pour la visualisation des résultats d'analyse (Perl CGI/PostgreSQL/Apache).
 
       - role: Développeur bioinformatique
-        time: 10/2022 - 05/2005
+        time: 10/2002 - 05/2005
         company: European BioInformatic Institute - Cambridge UK
         details: |
           Développement d'un logiciel de recherche de signatures protéiques sur des séquences du vivant (<a href="https://www.ebi.ac.uk/interpro/" target="_blank">InterProScan</a>).
