@@ -10,7 +10,7 @@ sidebar:
     avatar: emmanuel-quevillon.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: horkoo@gmail.com
+    email: horkko@gmail.com
     phone: +33 6 03 44 32 86
     born: 18 Juin 1976
     city: Rouen
@@ -39,6 +39,9 @@ sidebar:
 
         - name: HashiCorp Certified Terraform Associate (002)
           badge: https://www.credly.com/badges/b7e73790-6d72-42e9-9f9a-64df9b77593e
+
+        - name: Certified Kubernetes Administrator (CKA)
+          badge: https://www.credly.com/badges/45eada6e-fcea-489e-abf1-1787ab6e0d9b
 
     languages:
       title: Languages

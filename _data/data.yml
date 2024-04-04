@@ -40,6 +40,9 @@ sidebar:
         - name: HashiCorp Certified Terraform Associate (002)
           badge: https://www.credly.com/badges/b7e73790-6d72-42e9-9f9a-64df9b77593e
 
+        - name: Certified Kubernetes Administrator (CKA)
+          badge: https://www.credly.com/badges/45eada6e-fcea-489e-abf1-1787ab6e0d9b
+
     languages:
       title: Langues
       info:
@@ -98,16 +101,19 @@ education:
 experiences:
     title: Experiences professionnelles
     info:
-      - role: DevOps / SRE
+      - role: DevOps
         time: 04/2022 - Aujourd'hui
         company: SAFRAN - Magny les hameaux
         details: |
           Maintenance et automatisation de procédures d'installation et de configuration.
-            - SRE Cloud privé OpenStack, gestion d'usine logicielle pour plateforme BigData (GitLab, Artifactory, ...)
+            - Cloud privé OpenStack, gestion d'usine logicielle pour plateforme BigData (GitLab, Artifactory, ...)
             - Migration d'applications dans le cloud (AWS)
             - Migration d'infrastructures via IAC (Terraform)
+            - Deploiement d'infrastructures et applications K8S (EKS)
+            - Mise en place/création de CI/CD (GitLab/ Github actions)
+            - Automatisation de procédures d'installation et de déploiments (Shell/Ansible)
 
-      - role: DevOps / SRE
+      - role: DevOps
         time: 04/2022 - Aujourd'hui
         company: RedLab - Rouen
         details: |
@@ -116,7 +122,7 @@ experiences:
             - Installation automatisée d'un cluster offline K8S (Ansible)
             - Intégration & déploiement continu (Github actions, Docker) via une librairie partagée (GitHub actions)
 
-      - role: DevOps / SRE
+      - role: DevOps
         time:  02/2020 - 03/2021
         company: MovingLab - Rouen
         details: |
@@ -126,7 +132,7 @@ experiences:
             - Administration & automatisation (Packer / Ansible)
             - Déploiements automatiques (Gitlab-CI, CodeDeploy, Docker, Bash)
 
-      - role: DevOps / SRE
+      - role: DevOps
         time: 09/2017 - 01/2020
         company: OmicX - Rouen
         details: |
@@ -221,7 +227,7 @@ skills:
         level: 80%
 
       - name: Kubernetes
-        level: 60%
+        level: 75%
 
       - name: CI/CD (GitLab & GitHub)
         level: 80%
