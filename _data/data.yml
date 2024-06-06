@@ -102,24 +102,25 @@ experiences:
     title: Experiences professionnelles
     info:
       - role: DevOps
-        time: 04/2022 - Aujourd'hui
+        time: 04/2021 - Aujourd'hui
         company: SAFRAN - Magny les hameaux
         details: |
           Maintenance et automatisation de procédures d'installation et de configuration.
             - Cloud privé OpenStack, gestion d'usine logicielle pour plateforme BigData (GitLab, Artifactory, ...)
             - Migration d'applications dans le cloud (AWS)
             - Migration d'infrastructures via IAC (Terraform)
+            - Management d'infrastructures cloud (AWS)
             - Deploiement d'infrastructures et applications K8S (EKS)
             - Mise en place/création de CI/CD (GitLab/ Github actions)
             - Automatisation de procédures d'installation et de déploiments (Shell/Ansible)
 
       - role: DevOps
-        time: 04/2022 - Aujourd'hui
+        time: 04/2021 - Aujourd'hui
         company: RedLab - Rouen
         details: |
           Mise en place d'une structure d'intégration et déploiement continu (CI/CD) pour projets internes.
             - Gestion, déploiement et optimisation d'applications conteneurisées dans K8S
-            - Installation automatisée d'un cluster offline K8S (Ansible)
+            - Installation et configuration automatisée d'un K8S offline (Ansible)
             - Intégration & déploiement continu (Github actions, Docker) via une librairie partagée (GitHub actions)
 
       - role: DevOps
@@ -127,7 +128,6 @@ experiences:
         company: MovingLab - Rouen
         details: |
           Maintenance et modernisation d'infrastructures Cloud et de déploiements automatiques.
-            - SRE Cloud (AWS)
             - Infrastructure as a Code (Terraform)
             - Administration & automatisation (Packer / Ansible)
             - Déploiements automatiques (Gitlab-CI, CodeDeploy, Docker, Bash)
