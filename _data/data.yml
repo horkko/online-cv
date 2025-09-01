@@ -67,7 +67,7 @@ sidebar:
 career-profile:
     title: A propos
     summary: |
-      Biologiste de formation, DevOps aujourd'hui, j'ai des compétences hétérogènes.
+      Biologiste de formation, DevOps et Architecte Cloud, j'ai des compétences hétérogènes.
       Je m'adapte aisément et rapidement à tout nouveau domaine de compétence.
       Apprendre de nouvelles technologies et relever de nouveaux défis sont mes motivations premières.
 
@@ -101,8 +101,24 @@ education:
 experiences:
     title: Experiences professionnelles
     info:
+      - role: Architecte Solution Cloud
+        time: 05/2025 - Aujourd'hui
+        company: 3DS OUTSCALE - Saint Cloud
+        details: |
+          Assurer des missions de conseils et expertises auprès des clients
+          - Activités avant vente
+            - Appuis techniques et proposition de solutions aux clients
+            - Rédaction de DAT
+            - Mise en place d'infrastructures (IaC ou non)
+            - Automatisation de déploiements
+            - Rédaction de contenus de formations cloud
+          - Contributions au service OKS (OUTSCALE Kubernetes as a Service)
+            - Tests intensifs de la plateforme
+            - Déploiments de solutions
+            - Contributions au client en ligne de commande (oks-cli) 
+
       - role: DevOps
-        time: 04/2021 - Aujourd'hui
+        time: 04/2021 - 05/2025
         company: SAFRAN - Magny les hameaux
         details: |
           Maintenance et automatisation de procédures d'installation et de configuration.
